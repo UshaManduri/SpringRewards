@@ -1,0 +1,11 @@
+/.metadata/
+# Compiled class file
+*.class
+
+*.project
+
+*.xml
+
+*.policy
+
+*.settings
