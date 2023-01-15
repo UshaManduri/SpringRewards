@@ -10,28 +10,29 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class RewardsResponse {
 	
-	private Float onePointRewards;
-	private Float twoPointRewards;
-	private Float totalRewards;
-	
-	public Float getOnePointRewards() {
+	private float onePointRewards;
+	private float twoPointRewards;
+	private float totalRewards;
+	public float getOnePointRewards() {
 		return onePointRewards;
 	}
-	public void setOnePointRewards(Float onePointRewards) {
+	public void setOnePointRewards(float onePointRewards) {
 		this.onePointRewards = onePointRewards;
 	}
-	public Float getTwoPointRewards() {
+	public float getTwoPointRewards() {
 		return twoPointRewards;
 	}
-	public void setTwoPointRewards(Float twoPointRewards) {
+	public void setTwoPointRewards(float twoPointRewards) {
 		this.twoPointRewards = twoPointRewards;
 	}
-	public Float getTotalRewards() {
+	public float getTotalRewards() {
 		return totalRewards;
 	}
-	public void setTotalRewards(Float totalRewards) {
+	public void setTotalRewards(float totalRewards) {
 		this.totalRewards = totalRewards;
 	}
+	
+	
 	
 	
 

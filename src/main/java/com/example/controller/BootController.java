@@ -18,11 +18,11 @@ public class BootController {
 	
 	//http://localhost:9090/calculaterewards?amount=101
 	@GetMapping("calculaterewards")
-	public Object calculaterewards(String CustomerId, @RequestParam(name = "amount") Float amount) {
+	public Object calculateRewards(String CustomerId, @RequestParam(name = "amount") Float amount) {
 		try {
 			return rewardsService.getRewards(amount);
 		}catch(Exception e) {
-			return HttpStatus.NOT_FOUND;
+			throw e;
 		}
 	}
 	 

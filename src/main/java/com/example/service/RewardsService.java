@@ -14,7 +14,7 @@ public class RewardsService {
 	
 	Logger logger = LoggerFactory.getLogger(RewardsService.class);
 
-	public RewardsResponse getRewards(Float amount) {
+	public RewardsResponse getRewards(float amount) {
 
 		try {
 
